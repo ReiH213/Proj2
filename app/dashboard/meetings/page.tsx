@@ -18,10 +18,7 @@ const Meetings = () => {
   return (
     <div className="flex flex-row justify-center items-center py-6 m-4 gap-x-[178px]">
       <div className="max-w-[25vw]">
-        <Card title="Create 1 on 1 meeting" link='/dashboard/meetings/meeting' icon={Icon} />
-      </div>
-      <div className="max-w-[25vw]">
-        <Card title="Create a group meeting" link='/dashboard/meetings/creategroup' icon={Icon1} />
+        <Card title="Create a meeting" link='/dashboard/meetings/meeting' icon={Icon} />
       </div>
     </div>
   )
